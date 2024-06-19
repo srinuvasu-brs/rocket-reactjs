@@ -1,0 +1,113 @@
+.interface {
+  text-align: center;
+  padding: 20px;
+}
+
+a.button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: color 300ms;
+}
+
+a:hover {
+  color: red;
+}
+
+.ground {
+  background: url("../public/assets/images/ground.png") no-repeat center 0;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.txt-1 {
+  position: absolute;
+  bottom: 220px;
+  left: 50%;
+  background: url("../public/assets/images/nervous.png") no-repeat 0 0;
+  width: 223px;
+  height: 100px;
+  margin-left: -180px;
+  display: none;
+}
+.txt-1.show {
+  display: block;
+}
+
+.txt-2 {
+  position: absolute;
+  bottom: 220px;
+  left: 50%;
+  background: url("../public/assets/images/cant-wait.png") no-repeat 0 0;
+  width: 206px;
+  height: 65px;
+  display: none;
+}
+.txt-2.show {
+  display: block;
+}
+
+.rocket {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  width: 143px;
+  height: 272px;
+  margin-left: -71.5px;
+  background: url("../public/assets/images/rocket-state1.png") no-repeat 0 0;
+  transition: bottom 10000ms;
+}
+
+/* rocket bg image */
+.body-state2 .rocket {
+  background-image: url("../public/assets/images/rocket-state2.gif");
+}
+.body-state3 .rocket,
+.body-state4 .rocket {
+  background-image: url("../public/assets/images/rocket-state3.gif");
+}
+.body-state5 .rocket {
+  background-image: url("../public/assets/images/boom.png");
+  width: 209px;
+  height: 200px;
+  margin-left: -104.5px;
+}
+
+.body-state1 .rocket {
+  transition: none;
+}
+.body-state3 .rocket,
+.body-state4 .rocket {
+  bottom: 1000px;
+}
+
+.state1,
+.state2,
+.state3,
+.state4,
+.state5 {
+  display: none;
+}
+
+.body-state1 .state1 {
+  display: block;
+}
+.body-state2 .state2 {
+  display: block;
+}
+.body-state3 .state3 {
+  display: block;
+}
+.body-state4 .state4 {
+  display: block;
+}
+.body-state5 .state5 {
+  display: block;
+}
