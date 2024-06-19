@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rocket reactjs/static/css/main.66946153.css",
-    "main.js": "/rocket reactjs/static/js/main.99115618.js",
-    "static/js/453.a6bf56f0.chunk.js": "/rocket reactjs/static/js/453.a6bf56f0.chunk.js",
-    "static/media/rocket-state3.gif": "/rocket reactjs/static/media/rocket-state3.0cce5ae8b9d79215396c.gif",
-    "static/media/rocket-state2.gif": "/rocket reactjs/static/media/rocket-state2.fb8e44cf8a488d2ffead.gif",
-    "index.html": "/rocket reactjs/index.html",
-    "main.66946153.css.map": "/rocket reactjs/static/css/main.66946153.css.map",
-    "main.99115618.js.map": "/rocket reactjs/static/js/main.99115618.js.map",
-    "453.a6bf56f0.chunk.js.map": "/rocket reactjs/static/js/453.a6bf56f0.chunk.js.map"
+    "main.css": "/rocket-reactjs/static/css/main.7594fd2d.css",
+    "main.js": "/rocket-reactjs/static/js/main.637de987.js",
+    "static/js/453.a6bf56f0.chunk.js": "/rocket-reactjs/static/js/453.a6bf56f0.chunk.js",
+    "static/media/rocket-state3.gif": "/rocket-reactjs/static/media/rocket-state3.0cce5ae8b9d79215396c.gif",
+    "static/media/rocket-state2.gif": "/rocket-reactjs/static/media/rocket-state2.fb8e44cf8a488d2ffead.gif",
+    "index.html": "/rocket-reactjs/index.html",
+    "main.7594fd2d.css.map": "/rocket-reactjs/static/css/main.7594fd2d.css.map",
+    "main.637de987.js.map": "/rocket-reactjs/static/js/main.637de987.js.map",
+    "453.a6bf56f0.chunk.js.map": "/rocket-reactjs/static/js/453.a6bf56f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66946153.css",
-    "static/js/main.99115618.js"
+    "static/css/main.7594fd2d.css",
+    "static/js/main.637de987.js"
   ]
 }
